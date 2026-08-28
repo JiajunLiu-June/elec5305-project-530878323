@@ -61,6 +61,18 @@ The final project will include:
 - Project report
 - Video demonstration
 
+## Timeline (Weeks 1–13)
+
+| Weeks | Task |
+|---|---|
+| 1–2 | Project topic selection and scope definition. Define music source separation as the project area and establish vocal/accompaniment separation as the initial target. |
+| 3–5 | Conduct a literature review on music source separation, STFT, time-frequency masking, and deep-learning-based approaches. Select a suitable dataset and evaluation metrics. |
+| 6–7 | Implement the baseline system, including audio preprocessing, STFT analysis, time-frequency masking, and inverse STFT reconstruction. |
+| 8–9 | Implement or integrate a deep-learning-based source separation approach and perform initial experiments on the selected dataset. |
+| 10–11 | Optimise and evaluate the separation methods using metrics such as SDR and SI-SDR, together with spectral and listening-based comparisons. Analyse failure cases and improve the implementation where appropriate. |
+| 12 | Conduct final experiments, organise quantitative results, spectrograms, comparison figures, and representative audio examples. |
+| 13 | Complete the final report, GitHub documentation, and video demonstration. |
+
 ## Repository
 
 This repository contains the work for the **ELEC5305 Speech and Audio Processing Project**.
