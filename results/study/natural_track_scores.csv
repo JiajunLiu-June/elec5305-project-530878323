@@ -1,0 +1,36 @@
+track,method,reconstruction_sdr_db,si_sdr_db
+AM Contra - Heart Peripheral,clipped_psm,13.992297863365655,13.940001320937045
+AM Contra - Heart Peripheral,htdemucs,6.725156744947734,-7.7331419217314235
+AM Contra - Heart Peripheral,irm,13.08825644218441,12.84794880400639
+AM Contra - Heart Peripheral,magnitude_phase,13.120962761176287,12.884068325858642
+AM Contra - Heart Peripheral,mixture,-9.450239919250249,-9.369388071720909
+AM Contra - Heart Peripheral,nonnegative_psm,15.108288862604292,14.977782097940358
+AM Contra - Heart Peripheral,openunmix,7.251288952250274,6.132439588758341
+Al James - Schoolboy Facination,clipped_psm,9.414926166584706,9.002026103007712
+Al James - Schoolboy Facination,htdemucs,6.29912816703972,5.214921730522626
+Al James - Schoolboy Facination,irm,8.741944089393673,8.113643300205373
+Al James - Schoolboy Facination,magnitude_phase,8.15207887323363,7.503740149013918
+Al James - Schoolboy Facination,mixture,-1.7869170900557019,-2.0375509044403506
+Al James - Schoolboy Facination,nonnegative_psm,10.242989371208221,9.816864784958884
+Al James - Schoolboy Facination,openunmix,5.202211877649638,3.738056422767244
+Angels In Amplifiers - I'm Alright,clipped_psm,13.502494633058824,13.518696496953346
+Angels In Amplifiers - I'm Alright,htdemucs,11.579604441670522,11.27042672934904
+Angels In Amplifiers - I'm Alright,irm,12.722529014284836,12.542479003543283
+Angels In Amplifiers - I'm Alright,magnitude_phase,12.673903537282206,12.455916765003312
+Angels In Amplifiers - I'm Alright,mixture,-3.724350831720944,-3.821201628763391
+Angels In Amplifiers - I'm Alright,nonnegative_psm,14.68198017038594,14.559091979465562
+Angels In Amplifiers - I'm Alright,openunmix,10.407293560617056,10.082545673435854
+Arise - Run Run Run,clipped_psm,10.355583843539737,10.063151033430106
+Arise - Run Run Run,htdemucs,10.829264183335727,10.477838965715188
+Arise - Run Run Run,irm,9.65571504221135,9.201650423603313
+Arise - Run Run Run,magnitude_phase,8.133571079915864,7.503519513851324
+Arise - Run Run Run,mixture,-6.475040071892644,-6.436817960652917
+Arise - Run Run Run,nonnegative_psm,10.900586918346356,10.585842865484587
+Arise - Run Run Run,openunmix,4.6324592744244875,3.110086124473901
+BKS - Bulldozer,clipped_psm,15.08613185471264,15.12111450120873
+BKS - Bulldozer,htdemucs,13.533356525881988,13.337476153100857
+BKS - Bulldozer,irm,14.246950046374607,14.099608430753467
+BKS - Bulldozer,magnitude_phase,14.20126820006007,14.044071973404677
+BKS - Bulldozer,mixture,-4.850905668742653,-4.866051683310317
+BKS - Bulldozer,nonnegative_psm,16.345517015229866,16.275285543258434
+BKS - Bulldozer,openunmix,11.687847820329122,11.392556269995051

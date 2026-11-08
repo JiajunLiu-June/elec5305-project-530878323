@@ -1,0 +1,70 @@
+{
+  "n_tracks": 5,
+  "n_excerpts": 9,
+  "n_cases": 36,
+  "n_rows": 252,
+  "clipped_psm_gain_mean_db": 0.7792079453625373,
+  "clipped_psm_gain_min_db": 0.6464115393556256,
+  "clipped_psm_gain_max_db": 0.9429310842215983,
+  "max_stft_relative_error": 2.049909874313525e-16,
+  "max_phase_identity_error": 1.1102230246251563e-16,
+  "max_original_mixture_relative_error": 0.0005182510214694,
+  "natural_table": [
+    {
+      "method": "mixture",
+      "tracks": 5,
+      "mean_rec_sdr_db": -5.2574907163324385,
+      "min_track_rec_sdr_db": -9.450239919250249,
+      "max_track_rec_sdr_db": -1.7869170900557019,
+      "mean_si_sdr_db": -5.306202049777577
+    },
+    {
+      "method": "irm",
+      "tracks": 5,
+      "mean_rec_sdr_db": 11.691078926889775,
+      "min_track_rec_sdr_db": 8.741944089393673,
+      "max_track_rec_sdr_db": 14.246950046374607,
+      "mean_si_sdr_db": 11.361065992422365
+    },
+    {
+      "method": "magnitude_phase",
+      "tracks": 5,
+      "mean_rec_sdr_db": 11.256356890333612,
+      "min_track_rec_sdr_db": 8.133571079915864,
+      "max_track_rec_sdr_db": 14.20126820006007,
+      "mean_si_sdr_db": 10.878263345426374
+    },
+    {
+      "method": "clipped_psm",
+      "tracks": 5,
+      "mean_rec_sdr_db": 12.470286872252313,
+      "min_track_rec_sdr_db": 9.414926166584706,
+      "max_track_rec_sdr_db": 15.08613185471264,
+      "mean_si_sdr_db": 12.328997891107388
+    },
+    {
+      "method": "nonnegative_psm",
+      "tracks": 5,
+      "mean_rec_sdr_db": 13.455872467554935,
+      "min_track_rec_sdr_db": 10.242989371208221,
+      "max_track_rec_sdr_db": 16.345517015229866,
+      "mean_si_sdr_db": 13.242973454221566
+    },
+    {
+      "method": "openunmix",
+      "tracks": 5,
+      "mean_rec_sdr_db": 7.836220297054115,
+      "min_track_rec_sdr_db": 4.6324592744244875,
+      "max_track_rec_sdr_db": 11.687847820329122,
+      "mean_si_sdr_db": 6.89113681588608
+    },
+    {
+      "method": "htdemucs",
+      "tracks": 5,
+      "mean_rec_sdr_db": 9.793302012575136,
+      "min_track_rec_sdr_db": 6.29912816703972,
+      "max_track_rec_sdr_db": 13.533356525881988,
+      "mean_si_sdr_db": 6.513504331391258
+    }
+  ]
+}

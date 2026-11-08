@@ -1,0 +1,46 @@
+{
+  "input_seconds": 18,
+  "score_seconds": 6,
+  "context_before_seconds": 6,
+  "context_after_seconds": 6,
+  "same_natural_cases": 9,
+  "rows": 18,
+  "summary": [
+    {
+      "method": "openunmix",
+      "track_mean_rec_gain_db": 0.054866901002744425,
+      "track_mean_si_gain_db": 0.08794552592414807,
+      "excerpt_gain_min_db": -0.3708109518599123,
+      "excerpt_gain_max_db": 0.3306359235292477,
+      "improved_excerpts": 7,
+      "n_excerpts": 9
+    },
+    {
+      "method": "htdemucs",
+      "track_mean_rec_gain_db": 1.1104702872513408,
+      "track_mean_si_gain_db": 3.9712237925997753,
+      "excerpt_gain_min_db": -0.4069267590251222,
+      "excerpt_gain_max_db": 8.846566513261768,
+      "improved_excerpts": 8,
+      "n_excerpts": 9
+    }
+  ],
+  "failed_case": {
+    "case_id": "t00_s60_d6_natural",
+    "track": "AM Contra - Heart Peripheral",
+    "start_sec": 60.0,
+    "method": "htdemucs",
+    "input_duration_sec": 18,
+    "scored_duration_sec": 6,
+    "context_before_sec": 6,
+    "context_after_sec": 6,
+    "short_reconstruction_sdr_db": -0.002344014953981,
+    "short_si_sdr_db": -28.718757418361935,
+    "reconstruction_sdr_db": 8.844222498307788,
+    "si_sdr_db": 8.295040887840878,
+    "gain_rec_sdr_db": 8.846566513261768,
+    "gain_si_sdr_db": 37.013798306202816,
+    "inference_seconds": 6.062838334124535
+  },
+  "limitation": "Context and default Demucs split-window alignment change together; not a pure architecture or causal phase test"
+}

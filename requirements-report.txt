@@ -1,0 +1,4 @@
+-r requirements.txt
+reportlab==5.1.0
+pypdf==7.0.0
+imageio-ffmpeg==0.8.1

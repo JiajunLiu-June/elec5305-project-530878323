@@ -1,0 +1,9 @@
+{
+  "model": "htdemucs",
+  "input": "results/demo/audio/mixture.wav",
+  "input_sample_rate": 44100,
+  "output_sample_rate": 44100,
+  "shared_playback_gain": 1.0,
+  "inference_seconds": 3.6974783749319613,
+  "note": "Accompaniment is mixture minus estimated vocals; no true stems used"
+}

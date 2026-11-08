@@ -1,0 +1,70 @@
+[
+  {
+    "seconds": 4.5821070671081543e-07,
+    "message": "$ python -m src.demo"
+  },
+  {
+    "seconds": 0.010302625130861998,
+    "message": "Track: AM Contra - Heart Peripheral"
+  },
+  {
+    "seconds": 0.010337000247091055,
+    "message": "Read 30-36 seconds: 264600 samples x 2 channels, 44100 Hz"
+  },
+  {
+    "seconds": 0.8784258752129972,
+    "message": "STFT relative reconstruction error: 1.96e-16"
+  },
+  {
+    "seconds": 0.8784700413234532,
+    "message": "VAR -4.05 dB | O 0.0472 | D_phi 0.0174"
+  },
+  {
+    "seconds": 0.8784744162112474,
+    "message": "Loading official pretrained UMXHQ and HTDemucs..."
+  },
+  {
+    "seconds": 1.3692850000225008,
+    "message": "openunmix: actual inference completed in 0.28 seconds"
+  },
+  {
+    "seconds": 6.028015291318297,
+    "message": "htdemucs: actual inference completed in 4.66 seconds"
+  },
+  {
+    "seconds": 6.028057666029781,
+    "message": "Method              Rec SDR     SI-SDR (dB)"
+  },
+  {
+    "seconds": 6.036051083356142,
+    "message": "irm                   15.14       15.02"
+  },
+  {
+    "seconds": 6.043788625393063,
+    "message": "magnitude_phase       15.87       15.77"
+  },
+  {
+    "seconds": 6.052853791043162,
+    "message": "clipped_psm           16.09       16.13"
+  },
+  {
+    "seconds": 6.061767041217536,
+    "message": "nonnegative_psm       17.47       17.41"
+  },
+  {
+    "seconds": 6.069709250237793,
+    "message": "openunmix             10.19        9.86"
+  },
+  {
+    "seconds": 6.0775540410541,
+    "message": "htdemucs              13.45       13.25"
+  },
+  {
+    "seconds": 6.106052458286285,
+    "message": "Saved FLOAT WAV comparisons with common gain 1.0000"
+  },
+  {
+    "seconds": 6.106067708227783,
+    "message": "Complete. Oracles use true stems; pretrained models receive mixture only."
+  }
+]

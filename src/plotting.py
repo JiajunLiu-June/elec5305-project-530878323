@@ -9,7 +9,7 @@ matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
 
-from config import HOP_LENGTH
+from .config import HOP_LENGTH
 
 
 def save_spectrogram(

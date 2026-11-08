@@ -1,17 +1,19 @@
-# Python
 .venv/
+.cache/
 __pycache__/
 *.pyc
-
-# macOS
+.pytest_cache/
 .DS_Store
-
-# Dataset
 data/
 *.zip
-
-# Generated audio
 results/**/*.wav
-
-# Temporary files
+results/**/*.npz
 *.tmp
+
+tmp/
+results/pilot/
+results/development_run/
+results/*.log
+output/video/frames/
+output/video/*.mp4
+output/pdf/eq_*.png

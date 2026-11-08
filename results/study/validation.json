@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "tracks": 5,
+  "active_base_excerpts": 9,
+  "excluded": [
+    {
+      "track": "Angels In Amplifiers - I'm Alright",
+      "start": 60.0,
+      "reason": "vocal RMS below -50 dBFS",
+      "rms": 2.1845327779356387e-05
+    }
+  ],
+  "paired_conditions": 36,
+  "metric_rows": 252,
+  "bss_eval_rows": 54,
+  "valid_audio_files": 45,
+  "pdf_pages": 10,
+  "context_comparison_rows": 18,
+  "maximum_stft_relative_error": 2.049909874313525e-16,
+  "maximum_phase_identity_error": 1.1102230246251563e-16,
+  "weights_sha256_verified": 5,
+  "code_hash": "d403a95533f4461b57be4366b15bd472e344812c9ef9802bfa166050c9ea1f7f"
+}

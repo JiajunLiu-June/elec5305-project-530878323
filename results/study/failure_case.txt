@@ -1,0 +1,4 @@
+t00_s60_d6_natural
+AM Contra - Heart Peripheral
+Start 60 s; duration 6 s
+Selected by lowest natural learned-model SI-SDR. This is an illustrative failure, not an unbiased average.

@@ -1,0 +1,12 @@
+{
+  "case_id": "t00_s60_d6_natural",
+  "track": "AM Contra - Heart Peripheral",
+  "start_sec": 60.0,
+  "method": "htdemucs",
+  "reference_rms": 0.025701438380097117,
+  "estimate_rms": 0.0003884397590843008,
+  "demeaned_rms_ratio": 0.003801617064386521,
+  "cosine_similarity": -0.03662441223248162,
+  "reconstruction_sdr_db": -0.002344014953981,
+  "si_sdr_db": -28.718757418361935
+}

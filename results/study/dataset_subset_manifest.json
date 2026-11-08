@@ -1,0 +1,239 @@
+{
+  "source": "https://zenodo.org/records/3338373/files/musdb18hq.zip?download=1",
+  "archive_bytes": 22656664047,
+  "selection": "First N test tracks in lexicographic order; no score-based selection",
+  "tracks": [
+    "AM Contra - Heart Peripheral",
+    "Al James - Schoolboy Facination",
+    "Angels In Amplifiers - I'm Alright",
+    "Arise - Run Run Run",
+    "BKS - Bulldozer"
+  ],
+  "files": [
+    {
+      "name": "test/AM Contra - Heart Peripheral/bass.wav",
+      "offset": 17319343483,
+      "size": 15183664,
+      "raw_size": 37062700,
+      "crc": 4031471035,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/AM Contra - Heart Peripheral/drums.wav",
+      "offset": 17334527247,
+      "size": 27899570,
+      "raw_size": 37062700,
+      "crc": 3056851904,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/AM Contra - Heart Peripheral/other.wav",
+      "offset": 17362426918,
+      "size": 30364573,
+      "raw_size": 37062700,
+      "crc": 1175906973,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/AM Contra - Heart Peripheral/vocals.wav",
+      "offset": 17392791592,
+      "size": 24948229,
+      "raw_size": 37062700,
+      "crc": 20388373,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/AM Contra - Heart Peripheral/mixture.wav",
+      "offset": 17417739923,
+      "size": 33401093,
+      "raw_size": 37062700,
+      "crc": 4105016864,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Al James - Schoolboy Facination/bass.wav",
+      "offset": 15825420519,
+      "size": 24687055,
+      "raw_size": 35372968,
+      "crc": 540649508,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Al James - Schoolboy Facination/drums.wav",
+      "offset": 15850107677,
+      "size": 28904706,
+      "raw_size": 35372968,
+      "crc": 3132227012,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Al James - Schoolboy Facination/other.wav",
+      "offset": 15879012487,
+      "size": 29748458,
+      "raw_size": 35372968,
+      "crc": 95794268,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Al James - Schoolboy Facination/vocals.wav",
+      "offset": 15908761049,
+      "size": 28886259,
+      "raw_size": 35372968,
+      "crc": 2487924650,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Al James - Schoolboy Facination/mixture.wav",
+      "offset": 15937647413,
+      "size": 32589100,
+      "raw_size": 35372968,
+      "crc": 1767991456,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Angels In Amplifiers - I'm Alright/bass.wav",
+      "offset": 21745239542,
+      "size": 23455437,
+      "raw_size": 31680380,
+      "crc": 527657564,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Angels In Amplifiers - I'm Alright/drums.wav",
+      "offset": 21768695085,
+      "size": 26175045,
+      "raw_size": 31680380,
+      "crc": 642969424,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Angels In Amplifiers - I'm Alright/other.wav",
+      "offset": 21794870237,
+      "size": 28110158,
+      "raw_size": 31680380,
+      "crc": 793033638,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Angels In Amplifiers - I'm Alright/vocals.wav",
+      "offset": 21822980502,
+      "size": 21847447,
+      "raw_size": 31680380,
+      "crc": 527606515,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Angels In Amplifiers - I'm Alright/mixture.wav",
+      "offset": 21844828057,
+      "size": 29274504,
+      "raw_size": 31680380,
+      "crc": 56620629,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Arise - Run Run Run/bass.wav",
+      "offset": 17603242268,
+      "size": 32342936,
+      "raw_size": 38700944,
+      "crc": 4141500597,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Arise - Run Run Run/drums.wav",
+      "offset": 17635585295,
+      "size": 27650942,
+      "raw_size": 38700944,
+      "crc": 3821068887,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Arise - Run Run Run/other.wav",
+      "offset": 17663236329,
+      "size": 31177535,
+      "raw_size": 38700944,
+      "crc": 2766458030,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Arise - Run Run Run/vocals.wav",
+      "offset": 17694413956,
+      "size": 21608667,
+      "raw_size": 38700944,
+      "crc": 1054922619,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/Arise - Run Run Run/mixture.wav",
+      "offset": 17716022716,
+      "size": 35943266,
+      "raw_size": 38700944,
+      "crc": 325061431,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/BKS - Bulldozer/bass.wav",
+      "offset": 19191697934,
+      "size": 43348229,
+      "raw_size": 59453932,
+      "crc": 2255667080,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/BKS - Bulldozer/drums.wav",
+      "offset": 19235046250,
+      "size": 48016109,
+      "raw_size": 59453932,
+      "crc": 2011298920,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/BKS - Bulldozer/other.wav",
+      "offset": 19283062447,
+      "size": 48599417,
+      "raw_size": 59453932,
+      "crc": 2221476860,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/BKS - Bulldozer/vocals.wav",
+      "offset": 19331661952,
+      "size": 28536720,
+      "raw_size": 59453932,
+      "crc": 2968132840,
+      "method": 8,
+      "flags": 0
+    },
+    {
+      "name": "test/BKS - Bulldozer/mixture.wav",
+      "offset": 19360198761,
+      "size": 54053240,
+      "raw_size": 59453932,
+      "crc": 1054492206,
+      "method": 8,
+      "flags": 0
+    }
+  ]
+}

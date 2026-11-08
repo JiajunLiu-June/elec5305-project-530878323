@@ -1,0 +1,200 @@
+[
+  {
+    "start_seconds": 0,
+    "duration_seconds": 14,
+    "title": "Why does vocal separation fail?",
+    "caption": "One question: how do time-frequency overlap and mixture-phase mismatch relate to vocal reconstruction errors?\n\nWe reproduce oracle baselines, make a small phase-sensitive modification, and compare UMXHQ with HTDemucs.\n\nCaptioned demonstration with real local execution and music examples."
+  },
+  {
+    "start_seconds": 14,
+    "duration_seconds": 14,
+    "title": "A controlled, reproducible experiment",
+    "caption": "5 official test tracks; 9 active excerpts; 36 paired inputs. Same stems and exact inputs for every method."
+  },
+  {
+    "start_seconds": 28,
+    "duration_seconds": 17,
+    "title": "Code: phase-sensitive projection",
+    "caption": "Oracle information access is explicit."
+  },
+  {
+    "start_seconds": 45,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "$ python -m src.demo"
+  },
+  {
+    "start_seconds": 45.8,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "Track: AM Contra - Heart Peripheral"
+  },
+  {
+    "start_seconds": 46.599999999999994,
+    "duration_seconds": 0.8680888749659061,
+    "title": "Actual execution",
+    "caption": "Read 30-36 seconds: 264600 samples x 2 channels, 44100 Hz"
+  },
+  {
+    "start_seconds": 47.4680888749659,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "STFT relative reconstruction error: 1.96e-16"
+  },
+  {
+    "start_seconds": 48.2680888749659,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "VAR -4.05 dB | O 0.0472 | D_phi 0.0174"
+  },
+  {
+    "start_seconds": 49.068088874965895,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "Loading official pretrained UMXHQ and HTDemucs..."
+  },
+  {
+    "start_seconds": 49.86808887496589,
+    "duration_seconds": 4.658730291295797,
+    "title": "Actual execution",
+    "caption": "openunmix: actual inference completed in 0.28 seconds"
+  },
+  {
+    "start_seconds": 54.52681916626169,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "htdemucs: actual inference completed in 4.66 seconds"
+  },
+  {
+    "start_seconds": 55.326819166261686,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "Method              Rec SDR     SI-SDR (dB)"
+  },
+  {
+    "start_seconds": 56.12681916626168,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "irm                   15.14       15.02"
+  },
+  {
+    "start_seconds": 56.92681916626168,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "magnitude_phase       15.87       15.77"
+  },
+  {
+    "start_seconds": 57.72681916626168,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "clipped_psm           16.09       16.13"
+  },
+  {
+    "start_seconds": 58.526819166261674,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "nonnegative_psm       17.47       17.41"
+  },
+  {
+    "start_seconds": 59.32681916626167,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "openunmix             10.19        9.86"
+  },
+  {
+    "start_seconds": 60.12681916626167,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "htdemucs              13.45       13.25"
+  },
+  {
+    "start_seconds": 60.926819166261666,
+    "duration_seconds": 0.8,
+    "title": "Actual execution",
+    "caption": "Saved FLOAT WAV comparisons with common gain 1.0000"
+  },
+  {
+    "start_seconds": 61.72681916626166,
+    "duration_seconds": 6,
+    "title": "Actual execution",
+    "caption": "Complete. Oracles use true stems; pretrained models receive mixture only."
+  },
+  {
+    "start_seconds": 67.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: Original mixture",
+    "caption": "AM Contra - Heart Peripheral | 30-36 seconds\n\nReconstruction SDR: -4.05 dB\n\nIdentical playback gain across all examples. Use headphones.\n\nSource: MUSDB18-HQ, educational research example."
+  },
+  {
+    "start_seconds": 73.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: True vocal reference",
+    "caption": "AM Contra - Heart Peripheral | 30-36 seconds\n\nReference stem\n\nIdentical playback gain across all examples. Use headphones.\n\nSource: MUSDB18-HQ, educational research example."
+  },
+  {
+    "start_seconds": 79.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: Power IRM (oracle)",
+    "caption": "AM Contra - Heart Peripheral | 30-36 seconds\n\nReconstruction SDR: 15.14 dB\n\nIdentical playback gain across all examples. Use headphones.\n\nSource: MUSDB18-HQ, educational research example."
+  },
+  {
+    "start_seconds": 85.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: True magnitude + mixture phase (oracle)",
+    "caption": "AM Contra - Heart Peripheral | 30-36 seconds\n\nReconstruction SDR: 15.87 dB\n\nIdentical playback gain across all examples. Use headphones.\n\nSource: MUSDB18-HQ, educational research example."
+  },
+  {
+    "start_seconds": 91.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: Clipped PSM (oracle)",
+    "caption": "AM Contra - Heart Peripheral | 30-36 seconds\n\nReconstruction SDR: 16.09 dB\n\nIdentical playback gain across all examples. Use headphones.\n\nSource: MUSDB18-HQ, educational research example."
+  },
+  {
+    "start_seconds": 97.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: Open-Unmix UMXHQ",
+    "caption": "AM Contra - Heart Peripheral | 30-36 seconds\n\nReconstruction SDR: 10.19 dB\n\nIdentical playback gain across all examples. Use headphones.\n\nSource: MUSDB18-HQ, educational research example."
+  },
+  {
+    "start_seconds": 103.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: HTDemucs",
+    "caption": "AM Contra - Heart Peripheral | 30-36 seconds\n\nReconstruction SDR: 13.45 dB\n\nIdentical playback gain across all examples. Use headphones.\n\nSource: MUSDB18-HQ, educational research example."
+  },
+  {
+    "start_seconds": 109.72681916626166,
+    "duration_seconds": 18,
+    "title": "Measured findings",
+    "caption": "Clipped PSM improves over power IRM by 0.78 dB mean reconstruction SDR. Dots show track variability."
+  },
+  {
+    "start_seconds": 127.72681916626166,
+    "duration_seconds": 16,
+    "title": "A practical iteration: add context",
+    "caption": "Give both models 18 seconds; score the same centre six seconds. The weak HTDemucs case improves from -0.00 to 8.84 dB. Not every excerpt improves."
+  },
+  {
+    "start_seconds": 143.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: HTDemucs: original short input",
+    "caption": "AM Contra - Heart Peripheral | 60-66 seconds\n\nSame scored excerpt and shared playback gain.\n\nThe surrounding context is used at inference, without true stems."
+  },
+  {
+    "start_seconds": 149.72681916626166,
+    "duration_seconds": 6,
+    "title": "Listen: HTDemucs: with surrounding context",
+    "caption": "AM Contra - Heart Peripheral | 60-66 seconds\n\nSame scored excerpt and shared playback gain.\n\nThe surrounding context is used at inference, without true stems."
+  },
+  {
+    "start_seconds": 155.72681916626166,
+    "duration_seconds": 20,
+    "title": "What can we conclude?",
+    "caption": "Exact target magnitude is not automatically the best reconstruction when phase is wrong.\n\nGain changes move overlap and phase mismatch together; their independent causes are not isolated.\n\nFive tracks, short excerpts, unequal model training data and no formal listening study limit generalization."
+  },
+  {
+    "start_seconds": 175.72681916626166,
+    "duration_seconds": 14,
+    "title": "Reproduce and inspect",
+    "caption": "python -m src.run_experiment\npython -m src.summarize\npython -m src.demo\n\nSource, per-case CSVs, manifests, report and sound examples accompany the project.\n\nPrior algorithms and pretrained models are credited in the report."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "955717e8-8726e21a.th",
+    "sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4",
+    "bytes": 84141911
+  },
+  {
+    "filename": "bass-8d85a5bd.pth",
+    "sha256": "8d85a5bd3f996a8867fca0e8442e077e5a3f5ec747a6112742452a8f347b39c8",
+    "bytes": 35637796
+  },
+  {
+    "filename": "drums-9619578f.pth",
+    "sha256": "9619578f885c54737cb0234f9f9a4a679ee4f31438fd77fd1dbe02bb16c2da0a",
+    "bytes": 35637796
+  },
+  {
+    "filename": "other-b52fbbf7.pth",
+    "sha256": "b52fbbf76479e752bd72e02304c602ac7802aa5bfbfb9cd12054b2695d5093ab",
+    "bytes": 35637796
+  },
+  {
+    "filename": "vocals-b62c91ce.pth",
+    "sha256": "b62c91cedbc7a066f1778ead5b5cecb377aa3a46a31af1cce7c5c8769339d083",
+    "bytes": 35637796
+  }
+]
