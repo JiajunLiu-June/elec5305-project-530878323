@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "code_source": "Extracted delivery ZIP",
+  "raw_input": "Declared separately downloaded official test dataset",
+  "matched_rows": 10,
+  "maximum_score_difference_db": 0.0,
+  "isolated_core_tests": "13 passed",
+  "note": "Used the installed version-locked interpreter, with the extracted package as working directory; no original source tree on PYTHONPATH"
+}
