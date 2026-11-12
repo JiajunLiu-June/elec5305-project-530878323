@@ -17,3 +17,9 @@ results/*.log
 output/video/frames/
 output/video/*.mp4
 output/pdf/eq_*.png
+
+# Local presentation and recorded-video delivery files
+output/video_final/
+output/video_voiceover/
+output/slides/
+output/5305_Slides/

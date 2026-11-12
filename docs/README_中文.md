@@ -1,43 +1,39 @@
-# 5305 project 续作交接（2026 年 11 月 8 日）
+# ELEC5305 最终版使用说明
 
-实际续作目录是当前 `project` 文件夹，桌面旧项目保留不动。
-Report 2 是另一份作业，没有覆盖。
+Jiajun Liu，学号 **550378323**。
 
-## 本轮完成
+## 三项提交材料
 
-- 找到旧项目和进度报告；旧代码停在 oracle 基础模块，没有实验结果。
-- 发现原 MUSDB18-HQ ZIP 下载中断。重新从官方包取得固定的 5 首测试曲目，逐 WAV 校验 CRC32。
-- 跑通 IRM、真实幅度加混合相位、两种相位敏感 oracle，以及官方 UMXHQ、HTDemucs。
-- 10 个候选片段中，1 个接近静音的人声按阈值排除；9 个有效片段 × 4 种混音条件 = 36 组输入、252 行主实验指标。
-- 完成 BSS Eval v4 的 54 行独立核对、STFT 参数敏感性分析、失败案例和 18 行上下文补充实验。
-- 完成约 10 页英文研究报告、带真实运行记录与声音对比的字幕视频，以及可复现说明。
-- 13 项核心测试通过，45 个主实验试听 WAV、模型权重哈希、报告页数和实验清单通过检查。
+1. GitHub 可下载代码：仓库 README 包含安装、数据下载、预训练权重、运行和复现命令。
+2. 英文研究报告：`output/pdf/ELEC5305_Project_Report_Jiajun_Liu.pdf`，10页，含目录、图表、文献和 AI 辅助声明。
+3. 学生录制的英文演示视频：随最终提交文件夹单独提供原始 MOV，不上传到 GitHub。保留原录屏内容。
 
-## 主要发现
+GitHub 仓库：<https://github.com/JiajunLiu-June/elec5305-project-530878323>
+仓库名中的历史数字不作学号使用；正确学号是550378323。
 
-按歌曲等权汇总，自然混音的 IRM 重构 SDR 是 11.69 dB，受限相位敏感掩码是 12.47 dB，改善约 0.78 dB。
-相位敏感掩码是已有方法；本项目的工作是复现、受控实验和解释，不声称发明它。
+## 复现
 
-HTDemucs 在一个短片段上几乎抑制了整段人声。加入前后各 6 秒上下文后，仅评估原来的中间 6 秒，
-重构 SDR 从约 0 dB 变为 8.84 dB。在全部 9 个自然片段上，按歌曲等权的平均改善约 1.11 dB。
-并非所有片段都改善，且上下文与分块边界同时改变，报告说明了这个限制。
+使用 Python 3.12，从代码目录运行。完整命令和实验解释见 `README.md`。
 
-HTDemucs 的官方默认权重使用 MUSDB 外的 800 首训练歌曲，不能把与 UMXHQ 的差距直接归因于架构。
-报告也没有把 oracle 当作无需真值就能运行的实际分离器，没有虚构个人试听感受。
+```sh
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m pytest -q
+python tools/download_subset.py --tracks 5
+python tools/cache_models.py
+python -m src.demo
+python -m src.study --help
+```
 
-## 交付入口
+`src.study` 是 `src.run_experiment` 的短命令入口，使用相同实现和参数。
+`results/study/` 保存了已测量的CSV、图表和清单，不必先重跑实验才能查看结果。
+原始数据、预训练权重和虚拟环境不应加入GitHub或作业提交包；按说明分别获取。
 
-- `output/pdf/ELEC5305_Project_Report_Jiajun_Liu.pdf`：10 页报告。
-- `output/pdf/report_source.md`：可阅读的正文源文件。
-- `output/video/ELEC5305_Project_Demo.mp4`：真实执行记录、字幕、原始与分离音频、上下文改进对比；没有人声旁白。
-- `results/study/`：CSV、图表、清单、验证记录和试听音频。
-- `README.md`：安装与复现命令。
+## 核心结论与范围
 
-## 使用与提交
-
-先通读报告，理解相位投影、指标定义和实验限制，再听视频和对比 WAV。
-若要加入个人试听观察，应根据实际听到的内容写。视频已有字幕和声音，可以按需要另录个人讲解。
-
-最终要求是 GitHub 可下载代码、研究报告和简短演示视频，截止为 Week 13 结束；准确日历时间未提供。
-本轮 GitHub 连接器不可用，本机 Git 和 GitHub API 也发生 DNS 解析失败，因此没有声称已上传。
-本地续作保存在 `codex/vocal-separation-study-20261108` 分支，网络恢复后可再核对远端并推送。
+5首MUSDB18-HQ测试歌、9个有效片段、36个配对输入、252行主实验结果。
+自然混音按歌曲等权汇总：IRM为11.69 dB，Clipped PSM为12.47 dB，约改善0.78 dB。
+HTDemucs的一个短输入失败案例在加入上下文后由约0提升到8.84 dB。
+PSM是既有方法；本项目贡献是复现、受控实验、消融与解释。模型训练数据不同，
+样本较小，上下文和分块边界同时变化，不能据此声称架构本身普遍更优或听众偏好。

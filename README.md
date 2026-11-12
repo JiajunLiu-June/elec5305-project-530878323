@@ -55,6 +55,17 @@ No subjective listener scores or unperformed listening observations are claimed.
   and comparison WAVs are in the local delivery package, rather than source control.
 - [Assessment requirements](docs/requirements_and_rubric.md)
 
+## Final submission files
+
+The final submission consists of the research report, the recorded English video,
+and the GitHub source-code link. The report is linked above. The final MP4 is
+submitted separately and is not stored in Git. It is the student's original English screen recording; the original recording is
+retained without edits. The editable slides and bilingual recording notes are optional supporting
+files, not substitutes for the report or video.
+
+The presentation's short command `python -m src.study --help` delegates to the
+same implementation as `python -m src.run_experiment --help`.
+
 ## Install
 
 Use **Python 3.12** and run commands from the repository root. The versions below

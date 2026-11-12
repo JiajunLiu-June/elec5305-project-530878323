@@ -74,6 +74,19 @@ p('Vocal extraction supports karaoke, remixing and analysis, but musical sources
 p('<b>Research question:</b> How do time-frequency overlap and mixture-phase mismatch constrain oracle magnitude-mask reconstruction, and do two pretrained vocal separators exhibit similar difficulty trends under controlled accompaniment gain changes?')
 p('The project reproduces the original power-IRM and true-magnitude baselines, adds two established phase-sensitive oracle variants, and compares them on matched inputs. The contribution is the controlled musical analysis and verified implementation, not the invention of phase-sensitive masking or a newly trained network. The scope is deliberately limited to short excerpts and a small test subset.')
 fig('pipeline.png','Figure 1. Study sequence. Ground-truth stems are withheld from the learned systems.',maxheight=110)
+sub('Contents')
+toc_rows = [
+    ['1 Introduction and question - p. 1', '6 Natural-mixture results - p. 6'],
+    ['2 Literature review - p. 2', '7 Controlled balance and phase - p. 7'],
+    ['3 Data and paired conditions - p. 3', '8 Failure, context and sensitivity - p. 8'],
+    ['4 Oracle constraints and modification - p. 4', '9 Discussion and limitations - p. 9'],
+    ['5 Evaluation and implementation - p. 5', '10 Conclusion and references - p. 10'],
+]
+toc = Table([[Paragraph(t,styles['SmallProject']) for t in row] for row in toc_rows], colWidths=[245,245], hAlign='LEFT')
+toc.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),0)]))
+flow.append(toc)
+source.append('\n'.join(' | '.join(row) for row in toc_rows))
+
 
 page();h('2. Literature review and rationale')
 sub('2.1 Magnitude masks and phase-sensitive objectives')
