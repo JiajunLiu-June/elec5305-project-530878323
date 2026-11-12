@@ -58,7 +58,7 @@ No subjective listener scores or unperformed listening observations are claimed.
 ## Final submission files
 
 The final submission consists of the research report, the recorded English video,
-and the GitHub source-code link. The report is linked above. The final MP4 is
+and the GitHub source-code link. The report is linked above. The original MOV recording is
 submitted separately and is not stored in Git. It is the student's original English screen recording; the original recording is
 retained without edits. The editable slides and bilingual recording notes are optional supporting
 files, not substitutes for the report or video.
